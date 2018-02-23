@@ -31,11 +31,14 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
         </header>
-        <h2>Heroes</h2>
+        <section>
+          <h2 class="title">Heroes</h2>
+          <div className="heroes-list">
+            {listHeroes}
+          </div>
+        </section>
         <div className="heroes-list">
-          {listHeroes}
-        </div>
-        <div class="heroes-list">
+          <h2 className="title">Enemies</h2>
           {evilList}
         </div>
       </div>

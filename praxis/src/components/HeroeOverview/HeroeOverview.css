@@ -6,10 +6,32 @@
 }
 
 .heroe-overview-text {
+    font-size: 1.5em;
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 5;
     /* autoprefixer: off */
     -webkit-box-orient: vertical;
+    color: #E0E0E0;
     /* autoprefixer: on */
+}
+
+.heroe-overview-container a{ 
+    color: #F44336;
+    text-decoration: none;
+}
+
+.heroe-overview-container a:hover{ 
+    color: #D50000;
+}
+
+.heroe-image{
+    -webkit-box-shadow: 2px 9px 39px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 9px 39px -2px rgba(0,0,0,0.75);
+    box-shadow: 2px 9px 39px -2px rgba(0,0,0,0.75);
+}
+
+.heroe-image:hover{
+    transform: scale(1.2);
+    transition: transform 1.5s;
 }

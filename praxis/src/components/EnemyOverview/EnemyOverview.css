@@ -13,3 +13,7 @@
     -webkit-box-orient: vertical;
     /* autoprefixer: on */
 }
+
+.enemy-image{
+    max-width: 250px;
+}
